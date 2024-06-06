@@ -345,3 +345,14 @@
     background-color: #21161E;
 }
 
+
+@media screen (max-width:480px){
+
+    .logo-image {
+        width: 10%;
+        height: auto;
+        border-radius: 1000rem;
+        overflow: hidden;
+    }
+}
+
