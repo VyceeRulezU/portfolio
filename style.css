@@ -346,13 +346,339 @@
 }
 
 
-@media screen (max-width:480px){
+@media (max-width:480px) {
 
+    .nav-bar{
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+    
+    .nav-bar-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
     .logo-image {
-        width: 10%;
+        width: 25%;
         height: auto;
         border-radius: 1000rem;
         overflow: hidden;
     }
+    
+    .logo-image img{
+        width: 100%;
+        height: auto;
+        border-radius: 100rem;
+    }
+    
+    .nav-cta a{
+        text-decoration: none;
+        font-size: 1rem;
+        background-color: #371a38;
+        border: 0.1rem solid #d9416f;
+        border-radius: 0.8rem;
+        padding: 0.8rem 1rem 0.8rem 1rem;
+    
+    }
+
+    .hero-section{
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+    
+    .hero-description-imgage-container{
+        width: 100;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    
+    .hero-description-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        justify-content: start;
+        align-items: start;
+
+    }
+    
+    .hero-description{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    
+    .hero-description h1{
+        font-size: 2rem;
+    }
+    
+    .hero-description p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
+    .hero-cta a{
+       width: fit-content;
+    }
+
+    
+    .hero-image-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-image-container img{
+        width: 100%;
+    }
+
+    .project-section{
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+    
+    .project-wrapper{
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+    
+    .project-title{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .project-title h2{
+        font-size: 2rem;
+    }
+    
+    .project-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        flex-wrap: wrap;
+        column-gap: 2rem;
+        row-gap: 2rem;
+    }
+    
+    .project-card-container{
+        width: 48%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0;  
+        row-gap: 2rem;
+        padding: 1rem;
+        border: 0.1rem solid #d9416f;
+        border-radius: 0.8rem;
+    }
+    
+    .card-img-container-1{
+        width: 100%;
+        height: auto;
+        padding: 8rem;
+        overflow: hidden;
+        background-image: url(./images/CyrilTech\ Web.png);
+        background-size: cover;
+        background-position: top;
+        border-radius: 1.5rem;
+    }
+    
+    .card-img-container-2{
+        width: 100%;
+        height: auto;
+        padding: 8rem;
+        overflow: hidden;
+        background-image: url(./images/Rilla.png);
+        background-size: cover;
+        background-position: top;
+        border-radius: 1.5rem;
+    }
+    
+    .card-img-container-3{
+        width: 100%;
+        height: auto;
+        padding: 8rem;
+        overflow: hidden;
+        background-image: url(./images/Terra\ Homepage\ -\ Hifi.png);
+        background-size: cover;
+        background-position: top;
+        border-radius: 1.5rem;
+    }
+    
+    .card-img-container-4{
+        width: 100%;
+        height: auto;
+        padding: 8rem;
+        overflow: hidden;
+        background-image: url(./images/Consulting\ Mock-Up\ Web.png);
+        background-size: cover;
+        background-position: top;
+        border-radius: 1.5rem;
+    }
+    
+    .card-img-container img{
+        width: 100%;
+        border-radius: 1.5rem;
+    }
+    
+    .project-card-description{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.8rem;
+    }
+    
+    .card-title {
+        width: fit-content;
+        height: auto;
+    }
+    
+    .card-title h2{
+        font-size: 1.5rem;
+    }
+    
+    .card-description{
+        width: 100%;
+        height: auto;
+    }
+    
+    .card-description p{
+        font-size: 1rem;
+        font-weight: 100;
+    }
+    
+    .card-chips {
+        width: 100%;
+        height: auto;
+        padding: 0.5rem 0 0.5rem 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 1rem;
+    }
+    
+    .card-chips button{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        border: 0.1rem solid #636363;
+        background-color: #371a38;
+        border-radius: 1rem;
+    }
+    
+    .card-cta a{
+        color: #FEAF39;
+        font-size: 0.85rem;
+        text-decoration: none;
+    }
+    
+    .card-cta i{
+        color: #FEAF39;
+        margin: 0.5rem;
+    }
+
+    .publication-section{
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+    
+    .publication-title{
+        width: fit-content;
+        height: auto;
+        padding: 0.5rem;
+    }
+    
+    .publication-wrapper{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        flex-wrap: wrap;
+        column-gap: 2rem;
+        row-gap: 2rem;
+    }
+    
+    .publication-card{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 1.2rem;
+        background-color: #21161E;
+        padding: 1.2rem;
+        border: 1px solid #4C4C4C;
+        border-radius: 1.5rem;
+    }
+    
+    .publication-card-title{
+        width: fit-content;
+        height: auto;
+        background-color: #21161E;
+    }
+    
+    .publication-card-title h2{
+        color: aliceblue;
+        background-color: #21161E;
+    }
+    
+    .publication-card-description{
+        width: fit-content;
+        height: auto;
+        background-color: #21161E;
+    
+    }
+    
+    .publication-card-description p{
+        font-size: 1rem;
+        font-weight: 100;
+        background-color: #21161E;
+    }
+    
+    .publication-link{
+        width: fit-content;
+        height: auto;
+    }
+    
+    .publication-link a{
+        text-decoration: none;
+        color: #B187A6;
+        background-color: #21161E;
+    }
+    
+   
 }
 
