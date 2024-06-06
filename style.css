@@ -150,14 +150,13 @@
 }
 
 .project-card-container{
-    width: fit-content;
+    width: 48%;
     height: auto;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 0;
-    min-width: 40%;
+    flex-basis: 0;  
     row-gap: 2rem;
     padding: 1rem;
     border: 0.1rem solid #d9416f;
