@@ -150,7 +150,7 @@
 }
 
 .project-card-container{
-    width: 48%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -161,6 +161,8 @@
     padding: 1rem;
     border: 0.1rem solid #d9416f;
     border-radius: 0.8rem;
+    min-width: 48%;
+    min-height: 75vh;
 }
 
 .card-img-container-1{
@@ -495,6 +497,7 @@
         padding: 1rem;
         border: 0.1rem solid #d9416f;
         border-radius: 0.8rem;
+        min-height: fit-content;
     }
     
     .card-img-container-1{
